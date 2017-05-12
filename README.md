@@ -1,5 +1,7 @@
 # Pizza-Menu-Ordering-System
 
+## Architecture
+![picture alt](img/architecture.png)
 
 
 ## Rest Endpoint Screenshots
