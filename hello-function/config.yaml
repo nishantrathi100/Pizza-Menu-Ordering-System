@@ -1,0 +1,15 @@
+region: us-west-1
+
+function_name: order
+handler: service2.lambda_handler
+role: cmpe273-lambda
+description: pizza ordering system
+
+# if access key and secret are left blank, boto will use the credentials
+# defined in the [default] section of ~/.aws/credentials.
+aws_access_key_id: <REMOVING_FOR_GIT_COMMIT>
+aws_secret_access_key: <REMOVING_FOR_GIT_COMMIT>
+
+# dist_directory: dist
+# timeout: 15
+# memory_size: 512
